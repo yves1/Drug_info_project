@@ -1,15 +1,17 @@
 ul{
   list-style-type :none;
-   color : red;
+   color : white;
 }
 
 li{
-  margin-top:20px
+  margin-top:13px
 }
-body{
-  background-image: url("")
+body.home{
+  background-image: url("http://img13.deviantart.net/031f/i/2010/212/e/8/above_the_influence_2010_by_xlgulleylx.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 600px 600px;
+  background-color: blue;
+}
 
-}
-#weed{
-  color:blue;
-}
+

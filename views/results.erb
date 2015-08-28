@@ -1,2 +1,20 @@
-<%=@drug.desc %>
+<!doctype>
+<html>
+
+  <head>
+   <title>Drugs</title>
+   <link rel="stylesheet" href="../css/style.css">
+  </head>
+
+  <body>
+    <h1>Learn about <%=@drug_name %></h1>
+<h3><p><%=@drug.desc %>
 <%=@drug.method %>
+<%=@drug.effects %>
+<%=@drug.price %>
+<%=@drug.deathrate %>
+<p>
+    </h3>
+  <img src='<%=@drug.img %>'>
+  </body>
+</html>
